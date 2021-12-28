@@ -20,12 +20,6 @@
                 <div class="col-md-12 mt-4" style="border:1px solid #80808029; padding:15px;background-color:#ffffffde;">
                     
                     <a class="btn btn-primary mb-3" href="{% url 'read' %}">Users List (Read)</a>
-                    
-                    {% comment %} <form action="" method="post">
-                        {% csrf_token %}
-                        {{form.as_p}}
-                        <input type="submit" value="Save">
-                    </form> {% endcomment %}
     
                     <form method="post" novalidate>
                         {% csrf_token %}
